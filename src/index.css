@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #333333;
+  color: white;
+  background-image: linear-gradient(45deg, #00aeff, #0004ff);
+}
+
+.container {
+  position: relative; /* Add this to create a positioned container */
+}
+
+.box {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00aeff, #0004ff);
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  height: 700px;
+  width: 900px;
+  font-size: large;
+  position: absolute;
+  top: 50%; /* Positions the box 50% from the top of its container */
+  left: 50%; /* Positions the box 50% from the left of its container */
+  transform: translate(-50%, 10%); /* Center the box both horizontally and vertically */
+  font-size: 20px;
+  color: white;
+  border-width: 10px;
+  border-image: linear-gradient(45deg, #00aeff, #0004ff) 1;
+  border-style: solid;
+}
+.Logbox {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  height: 85%;
+  width: 95%;
+  font-size: large;
+  position: absolute;
+  top: 3%; /* Positions the box 50% from the top of its container */
+  left: 50%; /* Positions the box 50% from the left of its container */
+  transform: translate(-50%, 10%); /* Center the box both horizontally and vertically */
+  font-size: 20px;
+  color: white;
+}
+.bhold{
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  height: 10%;
+  width: 100%;
+  font-size: large;
+  position: absolute;
+  top: 80%; /* Positions the box 50% from the top of its container */
+  left: 50%; /* Positions the box 50% from the left of its container */
+  transform: translate(-50%, 10%); /* Center the box both horizontally and vertically */
+  font-size: 20px;
+  color: white;
+}
+.inputhol{
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  height: 80%;
+  width: 90%;
+  font-size: large;
+  position: absolute;
+  top: -3%; /* Positions the box 50% from the top of its container */
+  left: 50%; /* Positions the box 50% from the left of its container */
+  transform: translate(-50%, 10%); /* Center the box both horizontally and vertically */
+  font-size: 20px;
+  color: white;
+}
+input{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a200ff;
+  height: 50px;
+  width: 500px;
+  margin: 40px;
+}
+button{
+  background-image: linear-gradient(45deg, #00aeff, #0004ff) 1;;
+}
